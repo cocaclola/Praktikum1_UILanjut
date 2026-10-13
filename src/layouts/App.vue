@@ -1,3 +1,4 @@
+
 <script setup lang="ts">
 import Navbar from '@/components/app/Navbar.vue'
 import Breadcrumb from '@/components/app/Breadcrumb.vue'
@@ -17,15 +18,17 @@ import Breadcrumb from '@/components/app/Breadcrumb.vue'
 <style scoped>
 .app-layout {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .main-content {
   flex: 1;
-  padding: 2rem;
-  max-width: 1440px;
-  margin: 0 auto;
   width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
 }
 </style>
