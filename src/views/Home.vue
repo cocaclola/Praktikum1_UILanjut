@@ -89,7 +89,7 @@ import AppCard from '@/components/ui/AppCard.vue';
 
 /* --- NEW FEATURES SECTION --- */
 .features-section {
-  padding: 0 0 var(--space-12) 0;
+  padding: 0 var(--space-12) 0;
 }
 
 .features-header {
@@ -115,7 +115,7 @@ import AppCard from '@/components/ui/AppCard.vue';
 }
 
 .feature-card {
-  padding: var(--space-8);
+  padding: var(--space-6);
   text-align: center;
 }
 

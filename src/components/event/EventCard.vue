@@ -59,12 +59,12 @@ defineEmits(['view-detail']);
   padding: var(--space-1) var(--space-2);
   border-radius: 6px;
   font-weight: 600;
-  font-size: 0.85em;
+  font-size: 0.85rem;
 }
 
 .event-category {
   color: var(--text-muted);
-  font-size: 0.85em;
+  font-size: 0.85rem;
   font-weight: 500;
   text-transform: uppercase;
 }
